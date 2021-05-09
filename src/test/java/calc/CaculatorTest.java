@@ -23,7 +23,7 @@ public class CaculatorTest {
 	}
 	@Test
 	public void testMul() {
-		assertEquals(6, calc.mul(3,2));
+		assertEquals(8, calc.mul(4,2));
 	}
 	@Test
 	public void testDiv() {
