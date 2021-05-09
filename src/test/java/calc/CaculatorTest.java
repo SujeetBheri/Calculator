@@ -26,10 +26,6 @@ public class CaculatorTest {
 		assertEquals(8, calc.mul(4,2));
 	}
 	@Test
-	public void testDiv() {
-		assertEquals(2, calc.mul(6,3));
-	}
-	@Test
 	public void testDivByZero() {
 		assertEquals(0, calc.div(3,0));
 	}
