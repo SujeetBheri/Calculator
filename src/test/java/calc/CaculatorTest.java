@@ -28,6 +28,8 @@ public class CaculatorTest {
 		assertEquals(0, calc.div(3,0));
 	}
 	@Test
+	public void testMul() { assertEquals(6, calc.mul(4,2)); }
+	@Test
 	public void testPresedence() {
 		assertEquals(30, calc.add(calc.mul(5, 5), calc.div(10, 2)));
 	}
