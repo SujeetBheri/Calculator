@@ -19,7 +19,7 @@ public class CaculatorTest {
 	}
 	@Test
 	public void testSub() {
-		assertEquals(3, calc.sub(6,3));
+		assertEquals(3, calc.sub(9,6));
 	}
 	@Test
 	public void testDivByZero() {
